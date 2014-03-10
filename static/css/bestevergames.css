@@ -2,20 +2,16 @@
 	height: 5vw;
 }
 
-.row > div > input, 
-.row > div > img, 
-.row > div > button {
-	display: block;
-	width: 100%;
-}
-
-.row > div { 
+body > .row > div {
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
 
-#platform .list-group {
-	margin-bottom: 0;
+body > .row > div > input, 
+body > .row > div > img, 
+body > .row > div > button {
+	display: block;
+	width: 100%;
 }
 
 .cover {
@@ -24,9 +20,22 @@
 }
 
 .rank {
-	vertical-align: 2px;
+	vertical-align: 3px;
+}
+
+.rankings > div {
+	margin: 2px 0;
 }
 
 .rankings a {
 	float: right;
+}
+
+#platform .list-group {
+	margin-bottom: 0;
+}
+
+#year input[readonly] {
+	cursor: pointer;
+	background: none;
 }
