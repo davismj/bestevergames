@@ -14,6 +14,10 @@ body {
 	margin-bottom: 8px;
 }
 
+#platform .list-group {
+	margin-bottom: 0;
+}
+
 .rank {
 	vertical-align: 2px;
 }
