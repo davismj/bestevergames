@@ -7,24 +7,29 @@
 	<link rel="stylesheet" href="static/css/bestevergames.css" />
 </head>
 <body class="container-fluid">
-
+	<div class="spacer"></div>
 	<div class="row">
-		<div class="col-sm-6 col-sm-offset-3">
+		<div class="col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 			<img src="static/img/logo.png" />
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-6 col-sm-offset-3">
-			<input type="text" />
+		<div class="col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
+			<div class="input-group">
+				<input type="text" class="form-control" />
+				<span class="input-group-addon">
+					<i class="glyphicon glyphicon-search"></i>
+				</span>
+			</div>
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-3 col-sm-offset-3">
+		<div class="col-sm-4 col-md-3 col-sm-offset-2 col-md-offset-3">
 			<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#platform">
 			    Filter by platform
 			</button>
 		</div>
-		<div class="col-sm-3">
+		<div class="col-sm-4 col-md-3">
 			<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#year">
 			    Filter by year
 			</button>
@@ -45,7 +50,7 @@
 	-->
 
 	<div class="row">
-		<div class="col-sm-6 col-sm-offset-3">
+		<div class="col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">
 			<ul class="media-list">
 				<li class="media">
 					<a href="#" class="pull-left">
@@ -57,28 +62,25 @@
 							<a href="#/games/1">Legend of Zelda: Ocarina of Time</a>
 							(1998)
 						</h4>
-						<table class="table table-condensed rankings">
-						  	<tr>
-						  		<td>
-						  			Rank in Year:
-									<a href="#/charts/1">1</a>
-						  		</td>
-						  		<td>
-						  			Rank in Decade:
-									<a href="#/charts/1">1</a>
-						  		</td>
-						  	</tr>
-						  	<tr>
-						  		<td>
-						  			Rank in System:
-									<a href="#/charts/1">1</a>
-						  		</td>
-						  		<td>
-						  			Overall Rank:
-									<a href="#/charts/1">1</a>
-						  		</td>
-						  	</tr>
-						</table>
+						<div class="row rankings">
+					  		<div class="col-sm-6">
+					  			Rank in 1998:
+								<a href="#/charts/1">1</a>
+					  		</div>
+					  		<div class="col-sm-6">
+					  			Rank in 1990s:
+								<a href="#/charts/1">1</a>
+					  		</div>
+						  	
+					  		<div class="col-sm-6">
+					  			Rank in Nintendo 64:
+								<a href="#/charts/1">1</a>
+					  		</div>
+					  		<div class="col-sm-6">
+					  			Overall Rank:
+								<a href="#/charts/1">1</a>
+					  		</div>
+						</div>
 					</div>
 				</li>
 				<li class="media">
@@ -91,28 +93,25 @@
 							<a href="#/games/2">Super Mario World</a>
 							(1991)
 						</h4>
-						<table class="table table-condensed rankings">
-						  	<tr>
-						  		<td>
-						  			Rank in Year:
-									<a href="#/charts/2">2</a>
-						  		</td>
-						  		<td>
-						  			Rank in Decade:
-									<a href="#/charts/2">2</a>
-						  		</td>
-						  	</tr>
-						  	<tr>
-						  		<td>
-						  			Rank in System:
-									<a href="#/charts/2">2</a>
-						  		</td>
-						  		<td>
-						  			Overall Rank:
-									<a href="#/charts/2">2</a>
-						  		</td>
-						  	</tr>
-						</table>
+						<div class="row rankings">
+					  		<div class="col-sm-6">
+					  			Rank in 1991:
+								<a href="#/charts/1">1</a>
+					  		</div>
+					  		<div class="col-sm-6">
+					  			Rank in 1990s:
+								<a href="#/charts/1">2</a>
+					  		</div>
+						  	
+					  		<div class="col-sm-6">
+					  			Rank in Super Nintendo:
+								<a href="#/charts/1">1</a>
+					  		</div>
+					  		<div class="col-sm-6">
+					  			Overall Rank:
+								<a href="#/charts/1">2</a>
+					  		</div>
+						</div>
 					</div>
 				</li>
 			</ul>

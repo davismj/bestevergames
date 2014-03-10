@@ -1,5 +1,5 @@
-body {
-	margin-top: 120px;
+.spacer { 
+	height: 5vw;
 }
 
 .row > div > input, 
@@ -18,19 +18,15 @@ body {
 	margin-bottom: 0;
 }
 
-.rank {
-	vertical-align: 2px;
-}
-
 .cover {
 	max-height: 96px;
 	max-width: 96px;
 }
 
-.table > tbody > tr > td {
-	border: 0;
+.rank {
+	vertical-align: 2px;
 }
 
 .rankings a {
-	float:right;
+	float: right;
 }
