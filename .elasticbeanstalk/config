@@ -1,0 +1,21 @@
+[global]
+ApplicationName=bestevergames
+AwsCredentialFile=C:\Users\Matthew James Davis\.elasticbeanstalk\aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.us-west-2.amazonaws.com
+EnvironmentName=bestevergames-env
+EnvironmentTier=WebServer::Standard::1.0
+EnvironmentType=SingleInstance
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=D:\Dropbox\Projects\bestevergames\.elasticbeanstalk\optionsettings.bestevergames-env
+RdsDeletionPolicy=Delete
+RdsEnabled=Yes
+RdsSourceSnapshotName=
+Region=us-west-2
+ServiceEndpoint=https://elasticbeanstalk.us-west-2.amazonaws.com
+SolutionStack=64bit Amazon Linux 2013.09 running Python 2.7
+
+[aws:elasticbeanstalk:container:python:staticfiles]
+/=/
+
+[aws:elasticbeanstalk:container:python]
+StaticFiles=/=/
