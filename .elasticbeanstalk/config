@@ -13,9 +13,3 @@ RdsSourceSnapshotName=
 Region=us-west-2
 ServiceEndpoint=https://elasticbeanstalk.us-west-2.amazonaws.com
 SolutionStack=64bit Amazon Linux 2013.09 running Python 2.7
-
-[aws:elasticbeanstalk:container:python:staticfiles]
-/=/
-
-[aws:elasticbeanstalk:container:python]
-StaticFiles=/=/
