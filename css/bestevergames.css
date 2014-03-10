@@ -1,0 +1,32 @@
+body {
+	margin-top: 120px;
+}
+
+.row > div > input, 
+.row > div > img, 
+.row > div > button {
+	display: block;
+	width: 100%;
+}
+
+.row > div { 
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.rank {
+	vertical-align: 2px;
+}
+
+.cover {
+	max-height: 96px;
+	max-width: 96px;
+}
+
+.table > tbody > tr > td {
+	border: 0;
+}
+
+.rankings a {
+	float:right;
+}
